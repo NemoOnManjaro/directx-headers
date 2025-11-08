@@ -16,7 +16,7 @@ makedepends=(
 )
 options=(!lto)
 source=("directx-headers::git+$url#tag=v$pkgver")
-b2sums=('1754ac0b9302f6850401847f2369ab5e082d0320336d3f77790d1f28c18113011b7a21f12e739b2f568c58378d6a3a32c77e0d9db73927e61e91abd989f59140')
+b2sums=('SKIP')
 
 build() {
   local meson_options=(
